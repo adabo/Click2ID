@@ -1,0 +1,41 @@
+Hello AHK user's. This would be my first posted script. I hope my 2 months of  exposure aren't so obvious :)
+
+[b]Clip2ID[/b] (An automatic window's spy)
+----
+Concept: This tool is designed for developers with the intent on making your scripting a little easier. So many times I have to open a blank text and run a script to get window ID's, titles, colors etc. Then after getting them you have to copy them. Using this tool all of that is consolidated into one 2 simple mouse clicks.
+
+[b]Usage[/b]
+----
+
+Click the "Ok" button to begin viewing(or monitoring) your screens items. Imagine your screen as "picture" or snapshot. After you click ok your screen is like this picture that you can point at with your mouse.. As you mouse over individual controls and windows, the status window updates all the information in real time.
+
+Once you are satisfied with your selection. Click the left mouse button to reveal your data in a clean and friendly editable interface.
+
+[b]The "Captured data" window[/b]
+----
+(*Note: Please see the official AutoHotKey Help documentation for full descriptions)
+ 
+[u]ControlData[/u]
+Unnique Id: This box contains the window's(If present) unique Id. or HWnd.
+ClassNN: The window's classname
+Control HWnd: The control's unique HWnd number.
+Window title: The tile of the window(If present).
+Color: The color of the pixel where the mouse was last clicked. (There are known isssues with this, so check back for updates)
+
+[u]Buttons[/u]
+Copy: Each of these buttons, when clicked, will copy the portion of text in the adjacent text box to your clipboard.
+Copy all: Clicking this button will append all off the text from the adjacent boxes.(There is no append limit for any of the copy buttons.)
+Clear ClipB.: As the title says, it will clear out the contents of your clipboard leaving you with a fresh one to start over.
+Refresh G.U.I.: If you run into a situation where you need to reset/refresh the G.U.I., it will format it back to it's orginal state without text data.(Data from the previous capture is still stored, so clicking the copy buttons will still have the same effect.)
+Recapture: Click this button to begin another capturing session and. You will lose all the contents of the captured data window and be replaced with the new one.
+
+[b]The "Clipboard history" window[/b]
+----
+
+The purpose of this window is to keep a log/history of each of your  copies. This provides you with the opportunity to recopy old text to your clipboard again for immediate use.
+----
+
+There are a few features that I would like to implement (ctrl modifier + LButton to move windows whille captures for example.), but I have no idea when I'll do it. I have trouble sticking with one project.
+
+That's it. Have fun. Enjoy, and as always, comments and criticism are always welcome. Though I am a noob so maybe keep the criticism in a language I can understand :)
+
